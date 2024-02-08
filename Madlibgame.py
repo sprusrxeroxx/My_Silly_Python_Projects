@@ -40,6 +40,8 @@ Perhaps the melancholic tune serves as a reminder, a whisper in the wind, that e
 there exists a quiet beauty, a shared connection, a faint echo of hope waiting to be rediscovered.
 '''
 
+name = input("What is your name ?")
+
 #2.Ask User for Input
 os.system('clear')
 
@@ -75,16 +77,16 @@ sleep(2)
 
 print("while most are just hollow masks stuffed with tired eyes.")
 
-sleep(3)
+sleep(7)
 os.system('clear')
 
 print("You trace a smiley face on the frosted window, the cold sting on your fingernail")
 
-sleep(3)
+sleep(6)
 
 print(":)")
 
-sleep(4)
+sleep(5)
 os.system('clear')
 
 print("Burns like forgotten laughter, caged in those inferntile eyes staring back")
@@ -95,10 +97,40 @@ adj = getpass.getpass(prompt="Who is your childhood best friend ?\n")
 sleep(2)
 os.system('clear')
 
-print(f"The one laughing with {adj}")
+print(f"The laughter you used to share with {adj}")
 
+sleep(4)
+os.system('clear')
 
+print(f"{adj}".capitalize())
 
+sleep(7)
+
+print("Are your proud of the person I've become")
+
+sleep(3)
+
+print("You think...")
+
+sleep(2)
+
+print("Flashes of youth, come rushing in like an autumn rain")
+
+sleep(4)
+
+print("You think of how simple things were")
+
+sleep(3)
+
+print("How uncertain life's made you with each passing year")
+
+sleep(4)
+os.system('clear')
+
+sleep(5)
+
+print(name.upper() + '!!')
+sleep(6)
 #3.Replace story Items with User Input
 #4.Print Story
 
